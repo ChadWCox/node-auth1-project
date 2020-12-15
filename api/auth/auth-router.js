@@ -73,5 +73,4 @@ router.post('/login', checkPayload, checkUserExists, (req, res) => {
     }  
 });
 
-
 module.exports = router;
